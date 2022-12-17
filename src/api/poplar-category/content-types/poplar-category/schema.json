@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "poplar_categories",
+  "info": {
+    "singularName": "poplar-category",
+    "pluralName": "poplar-categories",
+    "displayName": "PoplarCategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    }
+  }
+}
